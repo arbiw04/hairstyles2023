@@ -31,7 +31,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://dev-film-biru-mantap.pantheonsite.io/` + encodeURI(path as string)
+					`https://dev-hairstyles2023.pantheonsite.io/` + encodeURI(path as string)
 				}`,
 			},
 		};
